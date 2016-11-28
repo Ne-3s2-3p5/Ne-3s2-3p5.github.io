@@ -1,6 +1,7 @@
-body {padding:20px; font-family: "Courier New", Courier, monospace, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif; }
-h1, h2 {font-family: "A1明朝 A1", "A1 Mincho", "Times New Roman", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;}
+body {padding:40px; font-family: Verdana, Roboto, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif; }
+h1 {font-family: "A1明朝 A1", "A1 Mincho", "Times New Roman", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;}
+h2 {font-family:Verdana, Roboto, "Droid Sans"; font-weight: normal;}
 .nav {text-align:right;}
-.wrap {width:100%; height: auto; position: absolute;}
+.wrap {width:100%; height: auto;}
 .title {font-weight:normal; text-align:center;}
-.copyright{bottom:0; left:0; position:absolute;}
+.copyright{bottom:0; position:absolute; z-index: 1;}
